@@ -1,0 +1,10 @@
+name: 'Content Fixtures'
+description: Generates content fixtures
+package: Development
+type: module
+core_version_requirement: ^8.7.7 || ^9
+
+# Information added by Drupal.org packaging script on 2022-09-10
+version: '3.1.2'
+project: 'content_fixtures'
+datestamp: 1662823844

@@ -1,0 +1,7 @@
+freshbyte.disclaimer_form:
+  path: '/disclaimer'
+  defaults:
+    _form: 'Drupal\freshbyte\Form\DisclaimerForm'
+    _title: 'Disclaimer Form'
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,5 @@
+name: Freshbyte
+type: module
+description: Custom module for Product list
+package: Freshbyte Custom
+core_version_requirement: ^9.0

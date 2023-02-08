@@ -1,0 +1,15 @@
+name: 'Content Fixtures Example'
+type: module
+core_version_requirement: ^8.7.7 || ^9
+package: Development
+description: Content fixtures examples
+dependencies:
+  - drupal:user
+  - drupal:node
+  - drupal:file
+  - content_fixtures:content_fixtures
+
+# Information added by Drupal.org packaging script on 2022-09-10
+version: '3.1.2'
+project: 'content_fixtures'
+datestamp: 1662823844

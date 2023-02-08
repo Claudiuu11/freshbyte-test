@@ -1,0 +1,21 @@
+uuid: 3cb3b21d-b9b8-44a8-abfe-94a948b58abf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_protected
+    - node.type.ct_product
+  module:
+    - options
+id: node.ct_product.field_protected
+field_name: field_protected
+entity_type: node
+bundle: ct_product
+label: Protected
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

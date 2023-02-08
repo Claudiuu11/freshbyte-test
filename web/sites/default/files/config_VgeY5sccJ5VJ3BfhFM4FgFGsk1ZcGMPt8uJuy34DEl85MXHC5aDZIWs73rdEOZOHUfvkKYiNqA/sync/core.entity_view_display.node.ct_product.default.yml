@@ -1,0 +1,79 @@
+uuid: 73b88591-1ad7-4074-9598-0183fb8e414a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_product.body
+    - field.field.node.ct_product.field_id
+    - field.field.node.ct_product.field_image
+    - field.field.node.ct_product.field_price
+    - field.field.node.ct_product.field_protected
+    - field.field.node.ct_product.field_qty
+    - image.style.large
+    - node.type.ct_product
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.ct_product.default
+targetEntityType: node
+bundle: ct_product
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_id:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_price:
+    type: number_decimal
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_protected:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_qty:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  links: true

@@ -1,0 +1,29 @@
+uuid: 611bd13b-f2a0-49e5-97be-fe96d56150dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.vw_product_list
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__vw_product_list_product_list
+theme: bartik
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:vw_product_list-product_list'
+settings:
+  id: 'views_block:vw_product_list-product_list'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
